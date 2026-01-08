@@ -1,1 +1,32 @@
-
+[
+  {
+    "event_id": "kyc_evt_0001",
+    "customer_id": "C0001",
+    "kyc_case_id": "KYC10001",
+    "kyc_status": "SUBMITTED",
+    "kyc_reason_code": null,
+    "provider": "ONFIDO",
+    "event_ts": "2026-01-01T09:00:00Z",
+    "updated_ts": "2026-01-01T09:00:00Z"
+  },
+  {
+    "event_id": "kyc_evt_0002",
+    "customer_id": "C0001",
+    "kyc_case_id": "KYC10001",
+    "kyc_status": "VERIFIED",
+    "kyc_reason_code": null,
+    "provider": "ONFIDO",
+    "event_ts": "2026-01-01T10:30:00Z",
+    "updated_ts": "2026-01-01T10:30:00Z"
+  },
+  {
+    "event_id": "kyc_evt_0003",
+    "customer_id": "C0002",
+    "kyc_case_id": "KYC10002",
+    "kyc_status": "REJECTED",
+    "kyc_reason_code": "DOC_BLURRY",
+    "provider": "TRULIOO",
+    "event_ts": "2026-01-02T08:10:00Z",
+    "updated_ts": "2026-01-02T08:10:00Z"
+  }
+]
